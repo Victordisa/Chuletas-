@@ -1,0 +1,34 @@
+/* codigo css*/
+
+.navegador ul{
+        position: fixed;
+        flex-direction: column;
+        width: 50%;
+        height: 60vh;
+        background: grey;
+        top: 80px;
+        left: -100%;
+        text-align: left;
+        transition: all .5s;
+    }
+
+
+    .navegador ul li{
+        display: block;
+        margin-top: 40px;
+
+    }
+
+    .navegador ul li a{
+        font-size: 20px;
+    }
+    #check:checked ~ ul{
+        left: 0;
+        
+ /* codigo html */
+ 
+ <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+            <i class="fa fa-bars"></i>
+        </label>
+ 
